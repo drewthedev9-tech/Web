@@ -1,0 +1,39 @@
+/*selector{
+	property: value;
+}*/
+
+body{
+	margin: 0px;
+}
+
+/*  allows for us to use flex box */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	font-family: cursive;
+	font-size:3em;
+	border-bottom: 2px solid purple;
+	border-right: 2px solid blue;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+	
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	/* goes with hover n how long the transition will take */
+	transition: all 1s;
+}
+
+/* how much the image will gwo when you hver over it */
+img:hover{
+	transform: scale(1.1);
+}
