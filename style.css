@@ -22,7 +22,7 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("dark.jpeg");
+  background-image: url("img/dark.jpeg");
   background-size: cover;
   height: 600px;
 
@@ -68,7 +68,7 @@ h1{
 }
 
 .Section2 {
-  background-image:url("light.jpg");
+  background-image:url("img/light.jpg");
   background-size: cover; 
 }
 
